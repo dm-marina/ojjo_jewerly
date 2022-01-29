@@ -1,0 +1,175 @@
+@media (min-width: 320px) {
+  /* line 2, ../../Documents/ojjo_jewerly/promo/scss/sectproducts.scss */
+  .products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    position: relative;
+    min-width: 320px;
+    color: #333333;
+  }
+  /* line 11, ../../Documents/ojjo_jewerly/promo/scss/sectproducts.scss */
+  .products-wrapper {
+    margin: 80px 15px 0px 15px;
+  }
+  /* line 14, ../../Documents/ojjo_jewerly/promo/scss/sectproducts.scss */
+  .content-products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+  /* line 20, ../../Documents/ojjo_jewerly/promo/scss/sectproducts.scss */
+  .title-sect {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  /* line 26, ../../Documents/ojjo_jewerly/promo/scss/sectproducts.scss */
+  .mini-text {
+    margin-bottom: 18px;
+  }
+  /* line 29, ../../Documents/ojjo_jewerly/promo/scss/sectproducts.scss */
+  .main-text {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Noto-Serif';
+  }
+  /* line 34, ../../Documents/ojjo_jewerly/promo/scss/sectproducts.scss */
+  .holidays {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  /* line 41, ../../Documents/ojjo_jewerly/promo/scss/sectproducts.scss */
+  .holiday {
+    width: 30%;
+    font-size: 14px;
+    border: 1px solid #D6D6D6;
+    background: #F9F9F9;
+    color: #333333;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 15px;
+    text-align: center;
+    padding: 6px 0px 6px 0px;
+    box-shadow: 6px 6px 6px 1px #D6D6D6;
+  }
+  /* line 54, ../../Documents/ojjo_jewerly/promo/scss/sectproducts.scss */
+  .holiday:active, .holiday:hover {
+    background: #333333;
+    box-shadow: 6px 6px #333333;
+    color: #fff;
+    border: #333333;
+  }
+  /* line 60, ../../Documents/ojjo_jewerly/promo/scss/sectproducts.scss */
+  .cards-products {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  /* line 67, ../../Documents/ojjo_jewerly/promo/scss/sectproducts.scss */
+  .card-products {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    display: flex;
+    vertical-align: bottom;
+    text-align: center;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 280px;
+  }
+  /* line 84, ../../Documents/ojjo_jewerly/promo/scss/sectproducts.scss */
+  .card-products:nth-child(1) {
+    background-image: url(../images/rings.svg);
+    margin-top: 0;
+  }
+  /* line 88, ../../Documents/ojjo_jewerly/promo/scss/sectproducts.scss */
+  .card-products:nth-child(2) {
+    background-image: url(../images/earrings.svg);
+  }
+  /* line 91, ../../Documents/ojjo_jewerly/promo/scss/sectproducts.scss */
+  .card-products:nth-child(3) {
+    background-image: url(../images/pendant.svg);
+  }
+  /* line 94, ../../Documents/ojjo_jewerly/promo/scss/sectproducts.scss */
+  .card-products:nth-child(4) {
+    background-image: url(../images/cufflinks.svg);
+  }
+  /* line 97, ../../Documents/ojjo_jewerly/promo/scss/sectproducts.scss */
+  .card-products:nth-child(5) {
+    background-image: url(../images/braslets.svg);
+  }
+  /* line 100, ../../Documents/ojjo_jewerly/promo/scss/sectproducts.scss */
+  .card-products:nth-child(6) {
+    background-image: url(../images/clock.svg);
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 105, ../../Documents/ojjo_jewerly/promo/scss/sectproducts.scss */
+  .products {
+    min-width: 1024px;
+  }
+  /* line 108, ../../Documents/ojjo_jewerly/promo/scss/sectproducts.scss */
+  .products-wrapper {
+    margin: 100px 0px 0px 0px;
+  }
+  /* line 111, ../../Documents/ojjo_jewerly/promo/scss/sectproducts.scss */
+  .content-products {
+    margin-bottom: 120px;
+  }
+  /* line 114, ../../Documents/ojjo_jewerly/promo/scss/sectproducts.scss */
+  .mini-text {
+    font-size: 21px;
+  }
+  /* line 117, ../../Documents/ojjo_jewerly/promo/scss/sectproducts.scss */
+  .main-text {
+    font-size: 30px;
+  }
+  /* line 120, ../../Documents/ojjo_jewerly/promo/scss/sectproducts.scss */
+  .holidays {
+    margin-top: 60px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  /* line 126, ../../Documents/ojjo_jewerly/promo/scss/sectproducts.scss */
+  .holiday {
+    width: auto;
+    margin-top: 0;
+    margin-right: 18px;
+    padding: 6px 35px 6px 35px;
+  }
+  /* line 132, ../../Documents/ojjo_jewerly/promo/scss/sectproducts.scss */
+  .cards-products {
+    margin-top: 55px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    max-width: 1110px;
+  }
+  /* line 140, ../../Documents/ojjo_jewerly/promo/scss/sectproducts.scss */
+  .card-products {
+    margin: 0px 0px 30px 0px;
+  }
+  /* line 143, ../../Documents/ojjo_jewerly/promo/scss/sectproducts.scss */
+  .card-products:nth-child(4), .card-products:nth-child(5), .card-products:nth-child(6) {
+    margin-bottom: 0;
+  }
+}
+
+/*# sourceMappingURL=sectproducts.css.map */

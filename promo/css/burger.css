@@ -1,0 +1,162 @@
+@media (min-width: 320px) {
+  /* line 2, ../../Documents/ojjo_jewerly/promo/scss/burger.scss */
+  .mobile-menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    background-color: #333;
+    color: #fff;
+  }
+  /* line 14, ../../Documents/ojjo_jewerly/promo/scss/burger.scss */
+  .mobile-wrap {
+    margin: 30px 35px 0px 45px;
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 19, ../../Documents/ojjo_jewerly/promo/scss/burger.scss */
+  .mobile-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  /* line 24, ../../Documents/ojjo_jewerly/promo/scss/burger.scss */
+  .close-menu {
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    border: none;
+  }
+  /* line 30, ../../Documents/ojjo_jewerly/promo/scss/burger.scss */
+  .close-menu::before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../images/close-menu.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* line 40, ../../Documents/ojjo_jewerly/promo/scss/burger.scss */
+  .menu-links {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 45, ../../Documents/ojjo_jewerly/promo/scss/burger.scss */
+  .menu-links::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-image: url(../images/divider_horizontal.svg);
+    margin-top: 35px;
+  }
+  /* line 53, ../../Documents/ojjo_jewerly/promo/scss/burger.scss */
+  .menu-link {
+    text-decoration: none;
+    font-size: 21px;
+    margin-bottom: 30px;
+    color: #fff;
+  }
+  /* line 59, ../../Documents/ojjo_jewerly/promo/scss/burger.scss */
+  .menu-link:last-child {
+    margin-bottom: 0;
+  }
+  /* line 62, ../../Documents/ojjo_jewerly/promo/scss/burger.scss */
+  .for-users {
+    margin-top: 33px;
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 67, ../../Documents/ojjo_jewerly/promo/scss/burger.scss */
+  .for-users-container {
+    display: flex;
+    flex-direction: row;
+  }
+  /* line 71, ../../Documents/ojjo_jewerly/promo/scss/burger.scss */
+  .user::before, .like::before {
+    content: "";
+    display: inline-block;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  /* line 78, ../../Documents/ojjo_jewerly/promo/scss/burger.scss */
+  .user::before {
+    background-image: url(../images/user.svg);
+    width: 34px;
+    height: 34px;
+    margin-right: 45px;
+  }
+  /* line 84, ../../Documents/ojjo_jewerly/promo/scss/burger.scss */
+  .like::before {
+    background-image: url(../images/like.svg);
+    width: 36px;
+    height: 32px;
+  }
+  /* line 89, ../../Documents/ojjo_jewerly/promo/scss/burger.scss */
+  .for-users::after {
+    content: "";
+    display: block;
+    background-image: url(../images/divider_horizontal.svg);
+    width: 100%;
+    height: 1px;
+    margin-top: 33px;
+    margin-bottom: 32px;
+  }
+  /* line 98, ../../Documents/ojjo_jewerly/promo/scss/burger.scss */
+  .submit {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  /* line 103, ../../Documents/ojjo_jewerly/promo/scss/burger.scss */
+  .youtube::before, .vk::before, .facebook::before, .telegram::before, .e::before {
+    content: "";
+    display: inline-block;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  /* line 110, ../../Documents/ojjo_jewerly/promo/scss/burger.scss */
+  .youtube::before {
+    background-image: url(../images/youtube-white.svg);
+    width: 34px;
+    height: 24px;
+  }
+  /* line 115, ../../Documents/ojjo_jewerly/promo/scss/burger.scss */
+  .vk::before {
+    background-image: url(../images/vk-white.svg);
+    width: 36px;
+    height: 21px;
+  }
+  /* line 120, ../../Documents/ojjo_jewerly/promo/scss/burger.scss */
+  .facebook::before {
+    background-image: url(../images/facebook-white.svg);
+    width: 16px;
+    height: 29px;
+  }
+  /* line 125, ../../Documents/ojjo_jewerly/promo/scss/burger.scss */
+  .telegram::before {
+    background-image: url(../images/telegram-white.svg);
+    width: 30px;
+    height: 25px;
+  }
+  /* line 130, ../../Documents/ojjo_jewerly/promo/scss/burger.scss */
+  .e::before {
+    background-image: url(../images/e-white.svg);
+    width: 21px;
+    height: 24px;
+  }
+  /* line 135, ../../Documents/ojjo_jewerly/promo/scss/burger.scss */
+  .show-menu {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=burger.css.map */
